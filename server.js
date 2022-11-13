@@ -47,7 +47,7 @@ app.put('/moveTaskDone', async (req, res) => {
     }
 })
 
-app.listen(8080, async () => {
+app.listen(3000, async () => {
     await sequelize.authenticate()
     console.log('App is running on port 8080')
 })

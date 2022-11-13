@@ -63,7 +63,7 @@
       function moveTask (event, id){
         const{name} = event.target;
 
-        fetch("http://localhost:8080/moveTaskDone", {
+        fetch("/moveTaskDone", {
           method: "PUT",
           headers: {
             "Content-Type": "application/json"
